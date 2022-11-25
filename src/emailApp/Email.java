@@ -122,7 +122,7 @@ public class Email {
 	//Store in File (java.IO)
 	public void storeFile() {
 		try {
-			FileWriter in = new FileWriter("C:\\Users\\giron\\OneDrive\\Documents\\Eclipse2022Workspace\\EmailApplication2021\\src\\info.txt");
+			FileWriter in = new FileWriter("(USE YOUR DIRECTORY PATH HERE)\\info.txt");
 			in.write("First Name: "+this.fname);
 			in.append("\nLast Name: "+this.lname);
 			in.append("\nEmail: "+this.email);
@@ -141,7 +141,7 @@ public class Email {
 	//Reading file method.
 	public void read_file() {
 		try {
-			FileReader f1 = new FileReader("C:\\Users\\giron\\OneDrive\\Documents\\Eclipse2022Workspace\\EmailApplication2021\\src\\info.txt");
+			FileReader f1 = new FileReader("(USE YOUR DIRECTORY PATH HERE)\\info.txt");
 			int i;
 			//While condition test not null
 			while((i=f1.read())!=-1) {
